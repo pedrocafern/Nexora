@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar-nav-icon>NEXORA</v-app-bar-nav-icon>
+    <v-app-bar-nav-icon app>NEXORA</v-app-bar-nav-icon>
   </v-app>
 </template>
 
