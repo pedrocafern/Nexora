@@ -4,10 +4,10 @@
 
 # Falta?
 
--> Apresentação<br>
+-> Apresentação <br>
 -> Login / Sign-UP <br>
--> Dashboard -> <br>
--> Relatorios -> <br>
+-> Dashboard <br>
+-> Relatorios <br>
 
 # Dificuldades
 
