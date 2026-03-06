@@ -22,9 +22,6 @@ import { RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-* {
-  font-family: 'Noto Sans', noto-sans-100, sans-serif ;
-}
 
 .logoGradient {
   background: linear-gradient(
@@ -37,6 +34,5 @@ import { RouterView } from 'vue-router'
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 </style>
