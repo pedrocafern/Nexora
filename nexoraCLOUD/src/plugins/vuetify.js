@@ -1,4 +1,6 @@
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 
-export const vuetify = createVuetify()
+const vuetify = createVuetify()
+
+export default vuetify
