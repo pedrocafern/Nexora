@@ -1,0 +1,18 @@
+:root {
+  /* Cores Principais */
+  --color-black: #0B0B0B;
+  --color-black-soft: #1F1F1F;
+  --color-orange: #FF8C1A;
+  --color-yellow: #FFC857;
+  --text-color: FFFFFF;
+
+  /* Font */
+  --font-family: 'Arial', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
