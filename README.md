@@ -2,13 +2,9 @@
 
 -> Foi criado o projeto utilizando "Vue + Vuetify".<br>
 
-# Falta?
+# O que falta??
 
 -> Apresentação <br>
 -> Login / Sign-UP <br>
 -> Dashboard <br>
 -> Relatorios <br>
-
-# Dificuldades
-
-Definição no Banco de Dados
