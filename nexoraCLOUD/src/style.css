@@ -10,3 +10,34 @@
   --font-family: 'Arial', sans-serif;
 }
 
+* {
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Logo {
+    width: 180px;
+}
+
+.navbar {
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  gap: 4rem;
+
+  /* Efeito Glass */
+  background: rgba(20, 20, 20, 0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+  background-color: var(--color-black-soft);
+}
