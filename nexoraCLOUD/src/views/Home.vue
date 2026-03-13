@@ -1,26 +1,21 @@
 <template>
+  <section class="hero" aria-labelledby="hero-title">
 
-<section class="hero">
+    <header class="heroContent">
+      
+      <h1 id="hero-title">Nexora Cloud</h1>
 
-<div class="heroContent">
+      <p>
+        Infraestrutura inteligente para soluções modernas.
+        Escale sua aplicação com segurança e performance.
+      </p>
 
-<h1>Nexora Cloud</h1>
+      <nav class="heroButtons" aria-label="Ações principais">
+        <button class="primary">Começar</button>
+        <button class="secondary">Saiba mais</button>
+      </nav>
 
-<p>
-Infraestrutura inteligente para soluções modernas.
-Escale sua aplicação com segurança e performance.
-</p>
+    </header>
 
-<div class="heroButtons">
-
-<button class="primary">Começar</button>
-
-<button class="secondary">Saiba mais</button>
-
-</div>
-
-</div>
-
-</section>
-
+  </section>
 </template>
