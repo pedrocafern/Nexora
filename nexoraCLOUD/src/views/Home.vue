@@ -1,16 +1,26 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router';
-</script>
-
 <template>
-        <nav class="navbar">
-            
-            <img src="../assets/Logo.svg" class="Logo"/>
 
-            <RouterLink to="/">Home </RouterLink>
-            <RouterLink to="/about"> About </RouterLink>
-            <RouterLink to="/login"> Login </RouterLink>
+<section class="hero">
 
-        </nav>
-    <RouterView />
+<div class="heroContent">
+
+<h1>Nexora Cloud</h1>
+
+<p>
+Infraestrutura inteligente para soluções modernas.
+Escale sua aplicação com segurança e performance.
+</p>
+
+<div class="heroButtons">
+
+<button class="primary">Começar</button>
+
+<button class="secondary">Saiba mais</button>
+
+</div>
+
+</div>
+
+</section>
+
 </template>

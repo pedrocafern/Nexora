@@ -6,38 +6,150 @@
   --color-yellow: #FFC857;
   --text-color: #ffff;
 
-  /* Font */
+  /* Fonte */
   --font-family: 'Arial', sans-serif;
 }
 
 * {
-  color: var(--text-color);
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
 }
 
-.Logo {
+.logo {
     width: 180px;
 }
 
-.navbar {
-  align-items: center;
-  padding: 1rem;
-  display: flex;
-  gap: 4rem;
+.navBar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 
-  /* Efeito Glass */
-  background: rgba(20, 20, 20, 0.45);
+  margin:auto;
+
+  padding:1rem 40px;
+
+  background: rgba(20,20,20,0.45);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+}
+
+.navLinks {
+  /* Links */
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navButtonLink{
+  padding: 8px 18px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, var(--color-orange), var(--color-yellow));
+  color: black;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.navButtonLink:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255,140,26,0.35);
 }
 
 a {
+  /* Tirar o traço embaixo do link */
   text-decoration: none;
+  color: var(--text-color);
 }
 
 
 body {
+  /* Fundo do site */
   background-color: var(--color-black-soft);
+  color: var(--text-color);
+  overflow-x:hidden;
+}
+
+/* HOME -- Inicio */
+
+.hero{
+height: calc(100vh - 70px);
+
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.heroContent{
+max-width:600px;
+text-align:left;
+}
+
+.heroContent h1{
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.heroContent p{
+font-size:1.2rem;
+opacity:0.8;
+margin-bottom:30px;
+}
+
+.heroButtons{
+display:flex;
+gap:15px;
+}
+
+.primary{
+padding:12px 28px;
+border-radius:8px;
+
+background: linear-gradient(
+135deg,
+var(--color-orange),
+var(--color-yellow)
+);
+
+border:none;
+color:black;
+font-weight:600;
+
+cursor:pointer;
+transition: all 0.25s ease;
+}
+
+.primary:hover{
+transform: translateY(-2px);
+
+box-shadow:
+0 8px 25px rgba(255,140,26,0.35);
+}
+
+.secondary{
+padding:12px 26px;
+
+border-radius:8px;
+
+background: rgba(20,20,20,0.35);
+
+border:1px solid rgba(255,255,255,0.15);
+
+color:white;
+font-weight:500;
+
+backdrop-filter: blur(8px);
+
+cursor:pointer;
+
+transition: all 0.25s ease;
+}
+
+.secondary:hover{
+background: rgba(20,20,20,0.55);
+
+border:1px solid rgba(255,255,255,0.25);
+
+transform: translateY(-2px);
+
+box-shadow:
+0 6px 20px rgba(0,0,0,0.35);
 }

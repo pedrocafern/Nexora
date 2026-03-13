@@ -17,7 +17,8 @@ const routes = [
     },
         { 
         path: '/login',
-        component: Login
+        component: Login,
+        meta: { hideNavbar: true }
     },
         { 
         path: '/dashboard',
