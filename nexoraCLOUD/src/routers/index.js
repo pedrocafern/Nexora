@@ -18,7 +18,7 @@ const routes = [
         { 
         path: '/login',
         component: Login,
-        meta: { hideNavbar: true }
+        meta: { hideNavbar: true }  // Esconde a Navbar nesta rota
     },
         { 
         path: '/dashboard',

@@ -7,8 +7,8 @@ const route = useRoute()
 
 <template>
 
-<Navbar v-if="!route.meta?.hideNavbar" />
+        <Navbar v-if="!route.meta?.hideNavbar" /> <!-- Exibe a Navbar apenas se hideNavbar não for true -->
 
-<RouterView />
+    <RouterView />
 
 </template>
